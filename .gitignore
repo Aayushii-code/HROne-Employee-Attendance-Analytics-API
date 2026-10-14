@@ -1,0 +1,57 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+*.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+secrets.*
+credentials*
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local development / runtime artifacts
+*.log
+*.sqlite3
+*.db
+*.sql.gz
+data_dumps/
+dumps/
+
+# Confidential assignment materials (not part of the public submission)
+PROBLEM_STATEMENT.docx
+openapi.yaml
+DATA_MODEL.md
+sample_data/
+sample_seed.py
